@@ -1,6 +1,0 @@
-#!/bin/bash
-
-rm [0-9]*.txt | [a-z]*.png |  test-*.log
-sleep 60
-ls -a
-echo Flag is: aWU0b29XdWxlaXBodXBpZWZveW8K
