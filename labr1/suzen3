@@ -1,4 +1,3 @@
 #!/bin/bash
 
-suz=$(while read line;do echo $line;done< -diary.txt-)
-echo "Flag is: $suz"
+echo "Flag is:"while read line;do echo $line;done< -diary.txt-
