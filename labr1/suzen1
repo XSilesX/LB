@@ -1,4 +1,4 @@
 #!/bin/bash
 ls
-cat diary.txt
-echo Flag is:ZGFpejZhaFJhZVNhZXhhaWJ1YWYK
+suz=$(cat diary.txt)
+echo "Flag is: $suz"
