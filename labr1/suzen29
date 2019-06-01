@@ -1,7 +1,6 @@
 #!/bin/bash
 
-suz=$(while read line; do echo $line; done < .ash_history)
+echo Flag is: while read line; do echo $line; done < .ash_history
 
-echo "Flag is: $suz"
 
 
