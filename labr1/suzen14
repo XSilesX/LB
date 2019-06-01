@@ -1,11 +1,11 @@
 #!/bin/bash
 
 cd part1
-ls
+suz1=$(ls)
 cd ../..
 cd john/Documents/part2
-ls
+suz2=$(ls)
 cd ../..
 cd Desktop/part3
-ls
-echo Flag is: d2FodmFoMWFlV2FpYmVlaG9vMmIK
+suz3=$(ls)
+echo "Flag is: $suz1$suz2$suz3"
