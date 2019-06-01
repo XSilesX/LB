@@ -3,6 +3,6 @@
 mkdir -p Documents/projects/lab19/using/simple/bash/commands
 cd Documents/projects/lab19/using/simple/bash/commands
 sleep 60
-ls -a
-echo Flag is: V2VpMGNvaHNoZWlxdWE0YWhnaG8K
+suz=$(ls -a | grep -o '[0-9a-zA-Z]\{28\}')
+echo "Flag is: $suz"
 
