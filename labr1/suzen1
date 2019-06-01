@@ -1,4 +1,3 @@
 #!/bin/bash
-ls
 suz=$(cat diary.txt)
 echo "Flag is: $suz"

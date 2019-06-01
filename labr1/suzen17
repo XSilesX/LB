@@ -1,4 +1,4 @@
 #!/bin/bash
 
-suz=$(ls -a | grep '[0-9a-zA-Z]\{28\}')
+suz=$(ls -a | grep -o '[0-9a-zA-Z]\{28\}')
 echo "Flag is: $suz"
